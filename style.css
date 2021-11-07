@@ -1,0 +1,76 @@
+body {
+    background-color: powderblue;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 222, 34);
+    padding: 10px;
+    animation-name: backgroundColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+  }
+  @keyframes backgroundColorPalette {
+	0% {
+		background: #ee6055;
+	}
+	25% {
+		background: #60d394;
+	}
+	50% {
+		background: #aaf683;
+	}
+	75% {
+		background: #ffd97d;
+	}
+	100% {
+		background: #ff9b85;
+	}
+}
+  h1 {
+    color: blue;
+    text-align: center;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  iframe {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+  }
+  p {
+    color: red;
+    text-align: center;
+  }
+  input{
+      color: green;
+      text-align: center;
+  }
+  .center {
+      margin: auto;
+      width: 50%;
+      border: 3px solid green;
+      padding: 10px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 560
+  }
+  .image {
+    flex-basis: 560%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
